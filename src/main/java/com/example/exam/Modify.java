@@ -13,7 +13,7 @@ public class Modify {
         private String lastModifiedWord = "";
         private int lastModifiedWordLength = 0;
 
-        @GetMapping("/api/modify/length")
+        @GetMapping("/api/modify/length ")
         public int getLastModifiedWordLength() {
             return lastModifiedWordLength;
         }
